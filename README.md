@@ -4,13 +4,13 @@
 
 Main | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/main.swift">Main</a>
 -------- | --------
-Sum Of Left Leaves | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/SumOfLeftLeaves.swift">Main</a>
-MaxDepthOfBinaryTree | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/MaxDepthOfBinaryTree.swift">Main</a>
-InvertBinaryTree | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/InvertBinaryTree.swift">Main</a>
-SameTree | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/SameTree.swift">Main</a>
-ExcelSheetColumnNumber | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/ExcelSheetColumnNumber.swift">Main</a>
-RansomNote | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/RansomNote.swift">Main</a>
-FizzBuzz | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/FizzBuzz.swift">Main</a>
-FirstUniqueCharacterInaString | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/FirstUniqueCharacterInaString.swift">Main</a>
-SingleNumber | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/SingleNumber.swift">Main</a>
-AddDigits | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/AddDigits.swift">Main</a>
+Sum Of Left Leaves | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/SumOfLeftLeaves.swift">Sum Of Left Leaves</a>
+Max Depth Of Binary Tree | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/MaxDepthOfBinaryTree.swift">Main</a>
+InvertBinaryTree | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/InvertBinaryTree.swift">Max Depth Of Binary Tree</a>
+Same Tree | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/SameTree.swift">Same Tree</a>
+Excel Sheet Column Number | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/ExcelSheetColumnNumber.swift">Excel Sheet Column Number</a>
+Ransom Note | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/RansomNote.swift">Ransom Note</a>
+Fizz Buzz | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/FizzBuzz.swift">Fizz Buzz</a>
+First Unique Character InaString | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/FirstUniqueCharacterInaString.swift">First Unique Character InaString</a>
+Single Number | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/SingleNumber.swift">Single Number</a>
+Add Digits | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/AddDigits.swift">Add Digits</a>
