@@ -21,7 +21,9 @@ func performanceTest(f: () -> ()) {
     print("Average Running Time: " + "\((endTime - startTime) / 10 * 1000)" + " ms")
 }
 
+let tree = BinaryTree().createBinaryTree([3,9,20,nil,nil,15,7])
+
 performanceTest {
-    print(ExcelSheetColumnNumber().titleToNumber("BA"))
+    print(SumOfLeftLeaves().sumOfLeftLeaves(tree))
 }
 
