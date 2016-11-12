@@ -12,7 +12,7 @@ import CoreAudioKit
 func performanceTest(f: () -> ()) {
     let startTime = CACurrentMediaTime()
     
-    for _ in 0 ..< 10 {
+    for _ in 0 ..< 1 {
         f()
     }
     
@@ -21,9 +21,8 @@ func performanceTest(f: () -> ()) {
     print("Average Running Time: " + "\((endTime - startTime) / 10 * 1000)" + " ms")
 }
 
-let tree = BinaryTree().createBinaryTree([3,9,20,nil,nil,15,7])
-
 performanceTest {
-    print(SumOfLeftLeaves().sumOfLeftLeaves(tree))
+    print(CountingBits().countBits(5))
 }
 
+//print((676 / 26 - 1) % 26)
