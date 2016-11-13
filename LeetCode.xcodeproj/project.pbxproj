@@ -23,6 +23,7 @@
 		85EA93EA1DD6B96300DDFE55 /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93E91DD6B96300DDFE55 /* CountingBits.swift */; };
 		85EA93EC1DD7195300DDFE55 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93EB1DD7195300DDFE55 /* ReverseInteger.swift */; };
 		85EA93EE1DD71C5600DDFE55 /* ExcelSheetColumnTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93ED1DD71C5600DDFE55 /* ExcelSheetColumnTitle.swift */; };
+		85EA93F01DD80DB000DDFE55 /* SingleNumberIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93EF1DD80DB000DDFE55 /* SingleNumberIII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		85EA93E91DD6B96300DDFE55 /* CountingBits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
 		85EA93EB1DD7195300DDFE55 /* ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		85EA93ED1DD71C5600DDFE55 /* ExcelSheetColumnTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelSheetColumnTitle.swift; sourceTree = "<group>"; };
+		85EA93EF1DD80DB000DDFE55 /* SingleNumberIII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNumberIII.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				85EA93D31DD0127600DDFE55 /* FizzBuzz.swift */,
 				85EA93D51DD074FE00DDFE55 /* FirstUniqueCharacterInaString.swift */,
 				85EA93DB1DD1FB1100DDFE55 /* SingleNumber.swift */,
+				85EA93EF1DD80DB000DDFE55 /* SingleNumberIII.swift */,
 				85EA93DD1DD1FCC900DDFE55 /* AddDigits.swift */,
 				85EA93E91DD6B96300DDFE55 /* CountingBits.swift */,
 				85EA93EB1DD7195300DDFE55 /* ReverseInteger.swift */,
@@ -181,6 +184,7 @@
 				85EA93D41DD0127600DDFE55 /* FizzBuzz.swift in Sources */,
 				85EA93E81DD5697C00DDFE55 /* SortAlgorithm.swift in Sources */,
 				85EA93E61DD2FB5600DDFE55 /* ExcelSheetColumnNumber.swift in Sources */,
+				85EA93F01DD80DB000DDFE55 /* SingleNumberIII.swift in Sources */,
 				85EA93DE1DD1FCC900DDFE55 /* AddDigits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

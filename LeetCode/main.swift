@@ -9,11 +9,11 @@
 import Foundation
 import CoreAudioKit
 
-func performanceTest(f: () -> ()) {
+func performanceTest(f: (_ count: Int) -> ()) {
     let startTime = CACurrentMediaTime()
     
-    for _ in 0 ..< 1 {
-        f()
+    for i in 0 ..< 10 {
+        f(i)
     }
     
     let endTime = CACurrentMediaTime()
@@ -21,8 +21,14 @@ func performanceTest(f: () -> ()) {
     print("Average Running Time: " + "\((endTime - startTime) / 10 * 1000)" + " ms")
 }
 
-performanceTest {
-    print(CountingBits().countBits(5))
+func test(_ count: Int) {
+    if count == 0 {
+        print("Result: " + ExcelSheetColumnTitle().convertToTitle(26))
+    } else {
+        _ = ExcelSheetColumnTitle().convertToTitle(26)
+    }
 }
 
-//print((676 / 26 - 1) % 26)
+performanceTest { (i) in
+    test(i)
+}
