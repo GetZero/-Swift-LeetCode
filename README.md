@@ -25,3 +25,6 @@ Fizz Buzz | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/Leet
 First Unique Character InaString | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/FirstUniqueCharacterInaString.swift">First Unique Character InaString</a>
 Single Number | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/SingleNumber.swift">Single Number</a>
 Add Digits | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/AddDigits.swift">Add Digits</a>
+Reverse Integer | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/AddDigits.swift">ReverseInteger</a>
+Excel Sheet Column Title | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/AddDigits.swift">ExcelSheetColumnTitle</a>
+Counting Bits | <a href="https://github.com/GetZero/-Swift-LeetCode/blob/master/LeetCode/AddDigits.swift">CountingBits</a>
