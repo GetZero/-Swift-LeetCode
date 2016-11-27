@@ -24,6 +24,7 @@
 		85EA93EC1DD7195300DDFE55 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93EB1DD7195300DDFE55 /* ReverseInteger.swift */; };
 		85EA93EE1DD71C5600DDFE55 /* ExcelSheetColumnTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93ED1DD71C5600DDFE55 /* ExcelSheetColumnTitle.swift */; };
 		85EA93F01DD80DB000DDFE55 /* SingleNumberIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93EF1DD80DB000DDFE55 /* SingleNumberIII.swift */; };
+		85FDC9A61DEA91B300470D99 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FDC9A51DEA91B300470D99 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		85EA93EB1DD7195300DDFE55 /* ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		85EA93ED1DD71C5600DDFE55 /* ExcelSheetColumnTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelSheetColumnTitle.swift; sourceTree = "<group>"; };
 		85EA93EF1DD80DB000DDFE55 /* SingleNumberIII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNumberIII.swift; sourceTree = "<group>"; };
+		85FDC9A51DEA91B300470D99 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				85EA93CA1DD0115600DDFE55 /* main.swift */,
+				85FDC9A51DEA91B300470D99 /* Test.swift */,
 				85EA93E71DD5697C00DDFE55 /* SortAlgorithm.swift */,
 				85EA93D71DD17DD200DDFE55 /* DataStruture.swift */,
 				85EA93D91DD1B6C300DDFE55 /* MaxDepthOfBinaryTree.swift */,
@@ -137,7 +140,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Wake GetZero";
 				TargetAttributes = {
 					85EA93C61DD0115600DDFE55 = {
@@ -180,6 +183,7 @@
 				85EA93DA1DD1B6C300DDFE55 /* MaxDepthOfBinaryTree.swift in Sources */,
 				85EA93EC1DD7195300DDFE55 /* ReverseInteger.swift in Sources */,
 				85EA93E21DD2C1E300DDFE55 /* InvertBinaryTree.swift in Sources */,
+				85FDC9A61DEA91B300470D99 /* Test.swift in Sources */,
 				85EA93DC1DD1FB1100DDFE55 /* SingleNumber.swift in Sources */,
 				85EA93D41DD0127600DDFE55 /* FizzBuzz.swift in Sources */,
 				85EA93E81DD5697C00DDFE55 /* SortAlgorithm.swift in Sources */,
@@ -210,6 +214,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -258,6 +263,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -277,6 +283,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};

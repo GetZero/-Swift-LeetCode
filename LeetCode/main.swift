@@ -7,28 +7,5 @@
 //
 
 import Foundation
-import CoreAudioKit
 
-func performanceTest(f: (_ count: Int) -> ()) {
-    let startTime = CACurrentMediaTime()
-    
-    for i in 0 ..< 10 {
-        f(i)
-    }
-    
-    let endTime = CACurrentMediaTime()
-    
-    print("Average Running Time: " + "\((endTime - startTime) / 10 * 1000)" + " ms")
-}
-
-func test(_ count: Int) {
-    if count == 0 {
-        print("Result: " + ExcelSheetColumnTitle().convertToTitle(26))
-    } else {
-        _ = ExcelSheetColumnTitle().convertToTitle(26)
-    }
-}
-
-performanceTest { (i) in
-    test(i)
-}
+Test().performanceTest(f: SingleNumberIII().singleNumber([1,2,3,4,2,3,1,5,7,6,7,6]))
