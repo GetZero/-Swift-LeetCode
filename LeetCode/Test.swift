@@ -11,7 +11,7 @@ import CoreAudioKit
 
 class Test: NSObject {
     
-    func performanceTest<T>(f: T) {
+    func performanceTest<T>(times: Int, f: T) {
         let startTime = CACurrentMediaTime()
         
         for i in 0 ..< 10 {
@@ -20,7 +20,7 @@ class Test: NSObject {
         
         let endTime = CACurrentMediaTime()
         
-        print("Average Running Time: " + "\((endTime - startTime) / 10 * 1000)" + " ms")
+        print("Time: \(times)\nAverage Running Time: " + "\((endTime - startTime) / 10 * 1000)" + " ms")
     }
     
     private func run<T>(_ count: Int, f: T) {

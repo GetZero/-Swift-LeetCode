@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B499EC1E18AF630062FA78 /* SearchAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B499EB1E18AF630062FA78 /* SearchAlgorithm.swift */; };
 		85EA93CB1DD0115600DDFE55 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93CA1DD0115600DDFE55 /* main.swift */; };
 		85EA93D21DD0117800DDFE55 /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93D11DD0117800DDFE55 /* RansomNote.swift */; };
 		85EA93D41DD0127600DDFE55 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93D31DD0127600DDFE55 /* FizzBuzz.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		85B499EB1E18AF630062FA78 /* SearchAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAlgorithm.swift; sourceTree = "<group>"; };
 		85EA93C71DD0115600DDFE55 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EA93CA1DD0115600DDFE55 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		85EA93D11DD0117800DDFE55 /* RansomNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				85EA93CA1DD0115600DDFE55 /* main.swift */,
 				85FDC9A51DEA91B300470D99 /* Test.swift */,
 				85EA93E71DD5697C00DDFE55 /* SortAlgorithm.swift */,
+				85B499EB1E18AF630062FA78 /* SearchAlgorithm.swift */,
 				85EA93D71DD17DD200DDFE55 /* DataStruture.swift */,
 				85EA93D91DD1B6C300DDFE55 /* MaxDepthOfBinaryTree.swift */,
 				85EA93DF1DD1FE3000DDFE55 /* SumOfLeftLeaves.swift */,
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B499EC1E18AF630062FA78 /* SearchAlgorithm.swift in Sources */,
 				85EA93EE1DD71C5600DDFE55 /* ExcelSheetColumnTitle.swift in Sources */,
 				85EA93D21DD0117800DDFE55 /* RansomNote.swift in Sources */,
 				85EA93D61DD074FE00DDFE55 /* FirstUniqueCharacterInaString.swift in Sources */,

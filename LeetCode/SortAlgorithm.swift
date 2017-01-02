@@ -8,7 +8,13 @@
 
 import Foundation
 
+enum OrderBy {
+    case Ascending, Descending
+}
+
 class SortAlgorithm: NSObject {
+    
+    var newArr: [Int] = []
     
     func selectSort(numbers nums: [Int]) -> [Int] {
         var newNums: [Int] = nums
@@ -47,5 +53,81 @@ class SortAlgorithm: NSObject {
         
         return newNums
     }
+    
+    func insertSort(numbers nums: [Int], orderBy: OrderBy) -> [Int] {
+        var newNums: [Int] = nums
+        
+        if orderBy == OrderBy.Ascending {
+            for i in 1 ..< newNums.count {
+                let key = newNums[i]
+                var j = i - 1
+                
+                while j >= 0 && newNums[j] > key {
+                    newNums[j + 1] = newNums[j]
+                    j -= 1
+                }
+                
+                newNums[j + 1] = key
+            }
+        } else {
+            for i in 1 ..< newNums.count {
+                let key = newNums[i]
+                var j = i - 1
+                
+                while j >= 0 && newNums[j] < key {
+                    newNums[j + 1] = newNums[j]
+                    j -= 1
+                }
+                newNums[j + 1] = key
+            }
+        }
+        
+        return newNums
+    }
+    
+//    func mergeSort(numbers nums: [Int]) -> [Int] {
+//        for _ in nums {
+//            newArr.append(0)
+//        }
+//        mergeSortReady(numbers: nums, start: 0, end: nums.count - 1)
+//        return newArr
+//    }
+//    
+//    private func mergeSortReady(numbers nums: [Int], start: Int, end: Int) {
+//        if start < end {
+//            let q = (start + end) / 2
+//            mergeSortReady(numbers: nums, start: start, end: q)
+//            mergeSortReady(numbers: nums, start: q, end: end - 1)
+//            merge(numbers: nums, start: start, middle: q, end: end - 1)
+//        }
+//    }
+//    
+//    private func merge(numbers nums: [Int], start: Int, middle: Int, end: Int) {
+//        let n1 = middle - start + 1
+//        let n2 = end - middle
+//        
+//        var arr1: [Int] = []
+//        var arr2: [Int] = []
+//        
+//        for i in 0 ... n1 {
+//            arr1.append(nums[i])
+//        }
+//        for i in 0 ... n2 {
+//            arr2.append(nums[i])
+//        }
+//        
+//        var left = 0
+//        var right = 0
+//        
+//        for i in start ..< end {
+//            if arr1[left] > arr2[right] {
+//                newArr[i] = arr2[right]
+//                right += 1
+//            } else {
+//                newArr[i] = arr1[left]
+//                left += 1
+//            }
+//        }
+//    }
     
 }

@@ -8,4 +8,4 @@
 
 import Foundation
 
-Test().performanceTest(f: SingleNumberIII().singleNumber([1,2,3,4,2,3,1,5,7,6,7,6]))
+
