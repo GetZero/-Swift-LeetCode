@@ -8,24 +8,6 @@
 
 import Foundation
 
-extension Array {
-    func createOrderArray(size: Int, orderBy: OrderBy) -> [Int] {
-        var arr: [Int] = []
-        
-        if orderBy == .Ascending {
-            for i in 0 ... size {
-                arr.append(i)
-            }
-        } else {
-            for i in 0 ... size {
-                arr.append(size - i)
-            }
-        }
-        
-        return arr
-    }
-}
-
 class SearchAlgorithm: NSObject {
     
     func linearSearch(source: [Int], target: Int) -> Int? {

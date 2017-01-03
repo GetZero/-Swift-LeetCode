@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		85B499EC1E18AF630062FA78 /* SearchAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B499EB1E18AF630062FA78 /* SearchAlgorithm.swift */; };
+		85B499EE1E1BB3040062FA78 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B499ED1E1BB3040062FA78 /* Extension.swift */; };
 		85EA93CB1DD0115600DDFE55 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93CA1DD0115600DDFE55 /* main.swift */; };
 		85EA93D21DD0117800DDFE55 /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93D11DD0117800DDFE55 /* RansomNote.swift */; };
 		85EA93D41DD0127600DDFE55 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA93D31DD0127600DDFE55 /* FizzBuzz.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		85B499EB1E18AF630062FA78 /* SearchAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAlgorithm.swift; sourceTree = "<group>"; };
+		85B499ED1E1BB3040062FA78 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		85EA93C71DD0115600DDFE55 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EA93CA1DD0115600DDFE55 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		85EA93D11DD0117800DDFE55 /* RansomNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				85EA93CA1DD0115600DDFE55 /* main.swift */,
+				85B499ED1E1BB3040062FA78 /* Extension.swift */,
 				85FDC9A51DEA91B300470D99 /* Test.swift */,
 				85EA93E71DD5697C00DDFE55 /* SortAlgorithm.swift */,
 				85B499EB1E18AF630062FA78 /* SearchAlgorithm.swift */,
@@ -190,6 +193,7 @@
 				85FDC9A61DEA91B300470D99 /* Test.swift in Sources */,
 				85EA93DC1DD1FB1100DDFE55 /* SingleNumber.swift in Sources */,
 				85EA93D41DD0127600DDFE55 /* FizzBuzz.swift in Sources */,
+				85B499EE1E1BB3040062FA78 /* Extension.swift in Sources */,
 				85EA93E81DD5697C00DDFE55 /* SortAlgorithm.swift in Sources */,
 				85EA93E61DD2FB5600DDFE55 /* ExcelSheetColumnNumber.swift in Sources */,
 				85EA93F01DD80DB000DDFE55 /* SingleNumberIII.swift in Sources */,
